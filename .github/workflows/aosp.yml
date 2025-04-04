@@ -27,7 +27,7 @@ jobs:
 
     - name: Fetch KernelSU-SuSFS
       run: |
-            curl -LSs "https://raw.githubusercontent.com/Taufik-Daulay/KernelSU/susfs-155/kernel/setup.sh" | bash -s susfs-155
+            curl -LSs "https://raw.githubusercontent.com/Taufik-Daulay/KernelSU-Next/next/kernel/setup.sh" | bash -s next
       
     - name: Clean previous build
       run: |
