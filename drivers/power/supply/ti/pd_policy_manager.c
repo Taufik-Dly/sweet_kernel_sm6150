@@ -326,7 +326,6 @@ static bool usbpd_check_ln8000_chg(struct usbpd_pm *pdpm)
 		ln8000_is_valid = false;
                 pr_err("Failed getting ln8000 charger IC name, rc=%d\n", rc);
 	}
-}
 
 static int usbpd_get_effective_fcc_val(struct usbpd_pm *pdpm)
 {
